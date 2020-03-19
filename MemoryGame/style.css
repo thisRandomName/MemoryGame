@@ -1,0 +1,147 @@
+body {
+    background-color: black;
+  }
+  
+  .toggle {
+    margin-left: 35px;
+    margin-right: 35px;
+  }
+  
+  .button {
+    border-radius: 50% !important;
+    font-size: 15px;
+    background-color: rgba(25, 10, 43, 0.685);
+    color: rgb(168, 170, 166);
+  }
+  
+  #switches {
+    position: absolute;
+    font-family: 'Original Surfer', cursive;
+    margin-left: 25px;
+    margin-top: 70px;
+  }
+  
+  .text2 {
+    position: absolute;
+    font-family: 'Original Surfer', cursive;
+    margin-left: 70px;
+    margin-top: 150px;
+  }
+  
+  .text1 {
+    position: absolute;
+    font-family: 'Original Surfer', cursive;
+    margin-left: 33px;
+    margin-top: 80px;
+  }
+  
+  .text1 span:last-child {
+    padding-left: 10px;
+  }
+  
+
+  
+  #turn {
+    position: absolute;
+    background: #110101;
+    color: rgb(255, 0, 242);
+    font-family: courier;
+    font-size: 20px;
+    height: 25px;
+    width: 35px;
+    margin-left: 85px;
+    margin-top: 170px;
+    text-align:center;
+    vertical-align: middle;
+    line-height: 30px;
+  }
+  
+  #outer-circle {
+    border-radius: 50%;
+    height: 400px;
+    width: 400px;
+    position: relative;
+    border-style: solid;
+    border-width: 1px;
+    margin: auto;
+    margin-top: 100px;
+
+  }
+  
+  #topleft {
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    border-radius: 200px 0 0 0;
+    background:limegreen;
+    top: 50%;
+    left: 50%;
+    margin: -200px 0px 0px -200px;
+    border-style:solid;
+    border-width: 2px;
+    
+  }
+  
+  #topright {
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    border-radius: 0 200px 0 0;
+    background:rgb(163, 84, 159);
+    top: 50%;
+    left: 50%;
+    margin: -200px -200px 0px 0px;
+    border-style: solid;
+    border-width: 2px;
+  }
+  
+  #bottomleft {
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    border-radius: 0 0 0 200px;
+    background: rgb(216, 162, 112);
+    top: 50%;
+    left: 50%;
+    margin: 0px -200px 0px -200px;
+    border-style: solid;
+    border-width: 2px;
+  }
+  
+  #bottomright {
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    border-radius: 0 0 200px 0;
+    background: lightseagreen;
+    top: 50%;
+    left: 50%;
+    margin: 0px 0px -200px 0px;
+    border-style: solid;
+    border-width: 2px;
+  }
+  
+  #inner-circle {
+    position: absolute;
+    background:rgba(0, 0, 0, 0.24);
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    border-style: solid;
+    border-width: 1px;
+    top: 70%;
+    left: 70%;
+    margin: -180px 0px 0px -180px;
+  }
+
+  p{
+      color:rgb(202, 64, 149);
+      margin-left: 500px;
+      margin-top:20px;
+      font-family: fantasy;
+      font-size: large;  
+  }
+
+  
+
+  
