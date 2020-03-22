@@ -121,7 +121,7 @@ topLeft.addEventListener('click',(event)=>{
     if(on==true){
         playOrder.push(1); //player clicks 1
         one();
-		check();
+        check();
         if(win==false){
             setTimeout( ()=>{
                 clearColour();
@@ -135,7 +135,7 @@ topRight.addEventListener('click',(event)=>{
     if(on==true){
         playOrder.push(2); //player clicks 2
         two();
-		check();
+	check();
         if(win==false){
             setTimeout( ()=>{
                 clearColour();
@@ -149,7 +149,7 @@ bottomLeft.addEventListener('click',(event)=>{
     if(on==true){
         playOrder.push(3); //player clicks 3
         three();
-		check();
+	check();
         if(win==false){
             setTimeout( ()=>{
                 clearColour();
@@ -164,7 +164,7 @@ bottomRight.addEventListener('click',(event)=>{
         playOrder.push(4); //player clicks 4
        
         four();
-		check();
+	check();
         if(win==false){
             setTimeout( ()=>{
                 clearColour();
